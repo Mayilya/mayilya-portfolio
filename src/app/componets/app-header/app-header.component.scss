@@ -1,0 +1,46 @@
+.main-menu {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  div {
+    height: 100%;
+    width: 15%;
+    align-items: center;
+    display: flex;
+    background-color: cornsilk;
+    color: darkblue;
+    
+    &:hover {
+      background-color: coral;
+      cursor: pointer;
+    }
+  }
+
+}
+
+// div {
+//   display: inline-block;
+//   position: absolute;
+//   right: 0;
+//   border: 3px solid chocolate;
+//   padding-top: 10%;
+
+// }
+
+// .container3 {
+//   padding-right: 2%;
+
+
+// }
+
+// .container2 {
+//   padding-right: 15%;
+// }
+
+// .container1 {
+//   padding-right: 25%;
+// }
+//  div:host {
+//    background-color: coral;
+//  }

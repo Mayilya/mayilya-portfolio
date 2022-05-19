@@ -1,0 +1,42 @@
+.header {
+  border: 5px solid red;
+  height: 10%;
+  background-color: yellow;
+}
+
+.main-layout {
+  border: 5px solid blue;
+  height: 50%;
+  background-color: yellowgreen;
+}
+
+.footer {
+  border: 5px solid green;
+  height: 25%;
+  background-color: wheat;
+
+  bottom: 0;
+}
+.main-menu {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  div {
+    height: 100%;
+    width: 15%;
+    align-items: center;
+    display: flex;
+    background-color: cornsilk;
+    color: darkblue;
+
+    &:hover {
+      background-color: coral;
+      cursor: pointer;
+    }
+  }
+
+}
+.active {
+  background-color: darkcyan !important;
+}
